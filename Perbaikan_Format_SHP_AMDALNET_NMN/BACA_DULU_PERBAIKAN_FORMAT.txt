@@ -1,0 +1,56 @@
+PERBAIKAN FORMAT SHP AMDALNET — NAHARANI MANDALA NIAGA
+Tanggal: 26 November 2026
+
+1. HASIL PEMERIKSAAN TEMPLATE RESMI YANG DIUNGGAH
+Arsip template_peta_tapak_proyek.zip memuat layer Tapak_proyek dengan:
+- Geometri: PolygonZ (ESRI Shape Type 15)
+- CRS: WGS_1984_Web_Mercator_Auxiliary_Sphere (Web Mercator Auxiliary Sphere)
+- Encoding DBF: UTF-8
+- Field DBF tepat seperti berikut:
+  OBJECTID_1  Numeric 10,0
+  PEMRAKARSA  Character 100
+  KEGIATAN    Character 254
+  TAHUN       Numeric 4,0
+  PROVINSI    Character 50
+  KETERANGAN  Character 254
+  LAYER       Character 50
+  AREA        Numeric 19,11
+
+2. DATA PEMRAKARSA YANG SUDAH TERKONFIRMASI
+PEMRAKARSA = NAHARANI MANDALA NIAGA (nama sesuai Surat Pernyataan Pendirian AHU)
+TAHUN = 2026
+PROVINSI = JAWA BARAT
+LAYER = Tapak Proyek
+Titik koordinat referensi (WGS84) = -6.839462403371104, 107.59837567806245
+
+3. FIELD YANG WAJIB DILENGKAPI DENGAN FAKTA
+KEGIATAN: nama spesifik rencana usaha dan/atau kegiatan yang dijalankan pada persil ini. Pilih dari KBLI yang tercantum pada Pernyataan Pendirian dan jelaskan kegiatan aktualnya.
+KETERANGAN: alamat lengkap persil tapak proyek; harus cocok dengan sertifikat/SHGB/PBB/site plan dan hasil konfirmasi alamat administratif.
+AREA: luas hasil penghitungan geometri polygon sesuai unit/ketentuan template. Jangan ditaksir.
+OBJECTID_1: ID fitur, misalnya 1 setelah polygon dibuat.
+
+4. FILE DALAM PAKET INI
+- TEMPLATE_TAPAK_PROYEK/Tapak_proyek.*: shapefile kosong dengan geometri, CRS, dan struktur DBF sesuai contoh yang diunggah. Template ini belum berisi polygon dan TIDAK BOLEH langsung diunggah sebagai tapak final.
+- Atribut_Tapak_Proyek_NMN_praisi.csv: nilai yang sudah diketahui. Kolom KEGIATAN, KETERANGAN, AREA sengaja dikosongkan karena membutuhkan konfirmasi/digitasi.
+- TITIK_REFERENSI_JANGAN_UNGGAH/*: titik koordinat referensi dalam CRS yang sama, hanya untuk membantu penempatan saat digitasi; bukan polygon tapak.
+- Template polygon kosong untuk QGIS; tidak terdapat geometri persil.
+
+5. MENGAPA FILE POINT SEBELUMNYA DITOLAK
+Shapefile Point hanya menyatakan satu koordinat. Form AMDALNET meminta peta tapak berupa polygon yang menggambarkan lokasi dan batas area kegiatan. Selain itu, file sebelumnya memakai skema/CRS berbeda dengan sample_map template yang baru diunggah.
+Template yang diperiksa di sini memakai PolygonZ serta field OBJECTID_1, PEMRAKARSA, KEGIATAN, TAHUN, PROVINSI, KETERANGAN, LAYER, AREA. Karena itu, jangan unggah SHP Point sebagai layer Tapak Proyek dan jangan mencampur skema dari template layer lain.
+
+6. LANGKAH FINAL DI QGIS
+a. Extract TEMPLATE_TAPAK_PROYEK.
+b. Buka Tapak_proyek.shp di QGIS.
+c. Gunakan sertifikat/SHGB/peta bidang, site plan berskala dan berdimensi, atau koordinat setiap sudut bidang hasil ukur untuk mendigitasi polygon sebenarnya.
+d. Jangan membuat buffer/kotak asumsi di sekitar titik koordinat.
+e. Isi atribut: OBJECTID_1=1; PEMRAKARSA=NAHARANI MANDALA NIAGA; KEGIATAN=nama rencana kegiatan spesifik; TAHUN=2026; PROVINSI=JAWA BARAT; KETERANGAN=alamat persil lengkap; LAYER=Tapak Proyek; AREA=hitung dari polygon sesuai panduan/form.
+f. Simpan hasil edit; pastikan polygon valid dan sistem koordinat sesuai template.
+g. Zip seluruh komponen dengan basename yang sama: .shp, .shx, .dbf, .prj, .cpg (dan file pendamping tambahan jika dibuat oleh GIS).
+h. Unggah ZIP hasil polygon final ke AMDALNET.
+
+7. DOKUMEN/BUTIR YANG DIPERLUKAN UNTUK MEMBUAT POLYGON FINAL
+- Peta bidang/surat ukur sertifikat/SHGB; atau
+- Site plan resmi dengan garis batas dan dimensi persil; atau
+- Koordinat semua titik sudut P1, P2, P3, ... yang diukur/ditetapkan surveyor.
+Tambahkan luas tanah serta luas area kegiatan jika berbeda. Satu titik referensi tidak cukup untuk menetapkan batas dan luas bidang.

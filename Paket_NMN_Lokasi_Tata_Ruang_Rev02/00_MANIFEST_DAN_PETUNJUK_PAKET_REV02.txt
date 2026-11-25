@@ -1,0 +1,61 @@
+PAKET REVISI DOKUMEN LOKASI & TATA RUANG
+NAHARANI MANDALA NIAGA (NMN)
+Revisi 02 | 26 November 2026
+Disiapkan oleh PT TOP KONSULTAN INTERNASIONAL
+
+ISI PAKET
+01. Dokumen Identitas Pemrakarsa dan Lokasi (DOCX/PDF)
+02. Draf Pernyataan Pemrakarsa Data Lokasi dan Komitmen (DOCX/PDF)
+03. Draf Surat Permohonan Informasi/Verifikasi Tata Ruang ke DPUTR Kabupaten Bandung Barat (DOCX/PDF)
+04. Memo Telaah Awal Tata Ruang (DOCX/PDF)
+05. Peta Referensi Titik Lokasi A3 (PDF) dan pratinjau PNG
+06. Data atribut CSV, SHP POINT WGS84, dan template POLYGON kosong
+Lampiran: salinan Surat Pernyataan Pendirian dan SK Pengesahan AHU.
+
+IDENTITAS DARI AHU
+Nama perseroan: NAHARANI MANDALA NIAGA
+Bentuk: Perseroan Perorangan
+Pendiri/pemilik: NA HARI ANDAZANI
+Nomor SK: AHU-A143109.AH.01.30.Tahun 2026
+Nomor permohonan: 4701251120260377
+Tanggal pengesahan: 25 November 2026
+Alamat terdaftar: Kp. Andir RT 004/RW 015, Gudangkahuripan, Kecamatan Lembang, Kabupaten Bandung Barat, Jawa Barat 40391
+Modal usaha tercantum: Rp1.000.000.000
+Klasifikasi pada SK: Usaha Mikro
+
+PENGGUNAAN DATA KTP
+KTP hanya diperiksa untuk pencocokan nama dan alamat. NIK serta rincian pribadi lain tidak direproduksi ke dokumen konsultansi dan gambar KTP tidak disertakan dalam paket.
+
+TITIK REFERENSI YANG DIBERIKAN PEMRAKARSA
+Latitude: -6.839462403371104
+Longitude: 107.59837567806245
+CRS kerja: WGS 84 / EPSG:4326 (asumsi; sumber CRS tetap perlu dikonfirmasi).
+
+BATASAN DAN KELENGKAPAN YANG MASIH DIPERLUKAN
+1. Dokumen AHU yang disertakan belum memuat NIB; lampirkan NIB dan profil OSS terkini.
+2. Tentukan KBLI yang benar-benar dijalankan pada koordinat tersebut; daftar sembilan KBLI yang dicantumkan adalah KBLI terdaftar di AHU, bukan bukti seluruhnya aktif di lokasi ini.
+3. Cocokkan titik koordinat dengan alamat persil berdasarkan sertifikat/SHGB, PBB, site plan, atau surat ukur.
+4. Lengkapi luas tanah dan luas bangunan berdasarkan bukti/hasil ukur.
+5. Polygon tapak belum dibuat. Satu titik tidak menentukan bentuk, luas, arah, atau batas bidang. Diperlukan koordinat setiap sudut atau peta bidang/site plan berdimensi.
+6. Lengkapi uraian kegiatan, skala/kapasitas, jam kerja, layout, kebutuhan akses, parkir, air/energi, penyimpanan, limbah, serta foto lapangan terbaru.
+7. Periksa mekanisme KKPR di OSS sesuai skala dan tingkat risiko tiap KBLI; status Usaha Mikro dalam SK AHU tidak dengan sendirinya membuktikan risiko rendah.
+8. Surat ke DPUTR adalah draf permohonan informasi; pastikan alamat/unit penerima dan kanal resmi sebelum ditandatangani/dikirim.
+
+STATUS BERKAS GEOSPASIAL
+- ZIP SHP POINT berisi satu geometri titik sesuai koordinat pemrakarsa. Ini hanya layer referensi, bukan polygon tapak final.
+- ZIP template POLYGON berisi nol fitur dan tidak boleh diunggah sebagai polygon final.
+- Peta PDF A3 adalah peta skematik titik referensi tanpa basemap/ortofoto dan bukan peta bidang, peta zonasi, atau KKPR.
+
+DASAR TATA RUANG YANG DIRUJUK
+Perda Kabupaten Bandung Barat Nomor 2 Tahun 2024 tentang RTRW Kabupaten Bandung Barat Tahun 2024-2044 (berlaku). Wilayah Pengembangan Lembang mencakup Kecamatan Lembang, Cisarua, dan Parongpong; hal ini bukan penetapan zona bagi persil tertentu. Overlay/konfirmasi zona persil harus dilakukan melalui layanan resmi dan/atau OSS.
+PP Nomor 28 Tahun 2025 tentang Penyelenggaraan Perizinan Berusaha Berbasis Risiko (berlaku). Pasal 32 mengatur KKPR melalui pernyataan mandiri OSS untuk pelaku usaha mikro dengan risiko rendah. Kriteria tersebut harus diperiksa untuk kegiatan dan lokasi yang dipilih.
+
+SUMBER RESMI
+- AHU: https://ahu.go.id/
+- OSS: https://oss.go.id/
+- PP 28/2025 (JDIH BPK): https://peraturan.bpk.go.id/Details/319773/pp-no-28-tahun-2025
+- Perda KBB 2/2024 (JDIH BPK): https://peraturan.bpk.go.id/Details/316499/perda-kab-bandung-barat-no-2-tahun-2024
+- Juknis Data Spasial AMDALNET Pemrakarsa Tapak Proyek v2.5 (Juli 2024): https://amdalnet.kemenlh.go.id/JUKNIS-DATA-SPASIAL-AMDALNET-PEMRAKARSA-TAPAK-PROYEK.pdf
+
+PENTING
+Paket ini adalah dokumen pendampingan/konsultansi dan data kerja. Dokumen ini bukan NIB, KKPR/PKKPR, Persetujuan Lingkungan, PBG/SLF, surat keterangan tata ruang, atau persetujuan resmi pemerintah. Jangan menyampaikan draf atau peta skematik sebagai dokumen pemerintah. Pernyataan pemrakarsa hanya ditandatangani setelah seluruh isinya benar dan sesuai keadaan faktual.

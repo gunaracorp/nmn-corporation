@@ -1,0 +1,55 @@
+PAKET REVISI DOKUMEN LOKASI DAN TATA RUANG - NAHARANI MANDALA NIAGA (NMN)
+Revisi: 02 | Tanggal: 26 November 2026
+Disiapkan oleh: PT TOP KONSULTAN INTERNASIONAL
+
+A. SUMBER DATA
+1. Surat Pernyataan Pendirian Perseroan Perorangan NAHARANI MANDALA NIAGA, Ditjen AHU, 25 November 2026.
+2. Keputusan Menteri Hukum RI Nomor AHU-A143109.AH.01.30.Tahun 2026, 25 November 2026; permohonan 4701251120260377.
+3. KTP NA HARI ANDAZANI; dipakai terbatas untuk pencocokan nama dan alamat. NIK tidak dicantumkan dalam dokumen pendampingan.
+4. Koordinat titik yang diberikan pemrakarsa.
+
+B. DATA BADAN USAHA
+Nama: NAHARANI MANDALA NIAGA
+Bentuk: Perseroan Perorangan (PT Perorangan)
+Pendiri/pemilik: NA HARI ANDAZANI
+Alamat terdaftar: Kp. Andir, RT 004/RW 015, Gudangkahuripan, Kecamatan Lembang, Kabupaten Bandung Barat, Jawa Barat 40391, Indonesia
+Modal usaha pada AHU: Rp1.000.000.000
+Klasifikasi pada SK: Usaha Mikro
+NIB: belum tersedia pada sumber yang ditelaah.
+KBLI tercatat: 46902, 14111, 46413, 46100, 46411, 46412, 46414, 46415, 52311
+
+C. REKONSILIASI KTP DAN AHU
+Nama dan alamat KTP yang disampaikan cocok secara administratif dengan data pemilik dan alamat terdaftar pada dokumen AHU. Data NIK tidak direproduksi.
+
+D. DATA TITIK LOKASI
+Koordinat: -6.839462403371104, 107.59837567806245
+DMS: 6°50′22.06″ LS; 107°35′54.15″ BT
+CRS kerja: WGS 84 / EPSG:4326 (asumsi; konfirmasi sumber koordinat).
+Alamat yang dikaitkan: Kp. Andir RT 004/RW 015, Desa Gudangkahuripan, Kecamatan Lembang, Kabupaten Bandung Barat, Jawa Barat 40391.
+Luas tanah/bangunan: belum tersedia. Batas polygon: belum tersedia. KBLI yang dijalankan di titik ini: belum dipilih.
+Alamat kantor terdaftar dan lokasi tapak perlu dibuktikan satu persil oleh PBB/sertifikat/SHGB/site plan/hasil survey.
+
+E. STATUS ENAM DOKUMEN
+01. Dokumen Identitas Pemrakarsa dan Lokasi: DOCX + PDF.
+02. Draf Pernyataan Pemrakarsa Data Lokasi dan Komitmen: DOCX + PDF; harus diperiksa dan ditandatangani pemrakarsa.
+03. Draf Surat Permohonan Informasi/Verifikasi Tata Ruang: DOCX + PDF; alamat penerima dan isi final dikonfirmasi sebelum dikirim.
+04. Memo Telaah Awal Tata Ruang: DOCX + PDF; analisis konsultan, bukan hasil pemerintah.
+05. Peta Referensi Titik Lokasi: PDF + PNG; titik tunggal, bukan peta bidang/polygon/zonasi.
+06. CSV, SHP POINT WGS84, dan template Polygon kosong EPSG:4326.
+
+F. CATATAN HUKUM DAN TATA RUANG
+Perda KBB No. 2 Tahun 2024 menetapkan RTRW KBB 2024-2044. Pasal 2 ayat (7) menyebut WP Lembang mencakup Kecamatan Lembang, Cisarua, dan Parongpong. Pasal 23 ayat (2) menyebut peta pola ruang skala 1:50.000. WP Lembang tidak sama dengan penetapan zona persil.
+PP No. 28 Tahun 2025 Pasal 32: apabila pelaku usaha merupakan usaha mikro dan risiko usaha rendah, KKPR lokasi usaha diterbitkan melalui OSS berupa pernyataan mandiri. Pasal 33 mengatur penilaian setelah pernyataan diterbitkan. Status Usaha Mikro di SK AHU tidak otomatis membuktikan tingkat risiko rendah bagi setiap KBLI.
+
+G. DATA WAJIB SEBELUM PENGAJUAN RESMI
+1. NIB aktif dan profil OSS terkini, termasuk KBLI, skala, risiko, serta lokasi.
+2. Penentuan satu/lebih KBLI yang benar-benar dilakukan pada titik lokasi ini.
+3. Bukti penguasaan tanah: sertifikat/SHGB/perjanjian sewa/izin tertulis pemilik.
+4. PBB dan alamat tapak terperinci sesuai desa, kecamatan, kabupaten, kode pos.
+5. Luas tanah dan luas bangunan yang dapat dibuktikan.
+6. Peta bidang/surat ukur/site plan berdimensi atau koordinat semua sudut persil P1, P2, P3, dst.
+7. Foto lapangan/citra terbaru, tanggal dan koordinat.
+8. Status tahap kegiatan dan uraian proses/kapasitas/layout/akses/penyimpanan/limbah.
+
+H. PENTING
+SHP POINT bukan polygon final. Template polygon tidak berisi fitur dan tidak boleh diunggah. Jangan mengarang batas bidang, luas, alamat administrasi, zonasi, atau status persetujuan. KKPR/PKKPR, pernyataan mandiri OSS, dan persetujuan lingkungan diterbitkan/diproses melalui kanal resmi sesuai ketentuan.
